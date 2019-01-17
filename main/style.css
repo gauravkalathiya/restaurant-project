@@ -1,7 +1,10 @@
 .main-header{
   text-align: justify;
-  display: inline;
-
+  /* display: inline; */
+  /* try using grid here! */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: baseline;
 }
 .ul{
 list-style: none;
