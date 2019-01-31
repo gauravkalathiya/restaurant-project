@@ -1,16 +1,50 @@
-.main-header{
+.row{
   text-align: justify;
+  display: inline;
   /* display: inline; */
   /* try using grid here! */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: baseline;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-self: start;
+
+
 }
-.ul{
+.main-header-1{
+  margin-left: auto;
+  margin-top: 2px;
+  padding-top: 2px;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+
+}
+li{
 list-style: none;
-background-color: yellow;
+display: inline-block;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 25px;
+
+}
+.main-header-2{
+  text-align: left;
+  margin-left: auto;
+  margin-top: 2px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-left: 2px;
+  align-items: center;
+  justify-self: start;
+}
+.logo{
+  text-align: center;
 
 }
 body{
-  background-color: yellow;
+  margin: auto;
+  text-align: center;
+
 }
